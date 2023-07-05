@@ -5,6 +5,7 @@ function convertPokeApiDetailToPokemon(pokeDetail) {
     const pokemon = new Pokemon()
     pokemon.number = pokeDetail.id
     pokemon.name = pokeDetail.name
+    pokemon.ability = pokeDetail.ability
 
     const types = pokeDetail.types.map((typeSlot) => typeSlot.type.name)
     const [type] = types
@@ -34,6 +35,7 @@ pokeApi.getPokemons = (offset = 0, limit = 5) => {
         .then((pokemonsDetails) => pokemonsDetails)
 }
 
+/*
 // Function to fetch and display Pokémon details
 pokeApi.getPokemonDetails = (pokemon) => {
     const urlParams = new URLSearchParams(window.location.search);
@@ -102,3 +104,5 @@ if (window.location.pathname.includes('pokemon.html')) {
 function voltarPaginaAnterior() {
     history. back();
     document. getElementById("Voltar"). addEventListener("onclick", voltarPaginaAnterior);}
+
+    */
