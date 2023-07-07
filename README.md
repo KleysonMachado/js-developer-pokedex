@@ -33,4 +33,4 @@ Veja como o site ficou.
 ## 📌 Mais informações
 
 Este projeto faz parte da trilha de Javascript da **Digital Innovation One**. O mesmo projeto postado no Github foi entregue, como pedido, na plataforma da DIO.
-https://kleysonmachado.github.io/js-developer-pokedex/
+<a href='https://kleysonmachado.github.io/js-developer-pokedex/'>Clique aqu e veja o projeto</a>
